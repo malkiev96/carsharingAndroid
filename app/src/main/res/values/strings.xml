@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Каршеринг</string>
+    <string name="firstname">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="middlename">Отчество</string>>
+    <string name="mail">E-mail</string>
+    <string name="title_activity_test">Map</string>
+    <string name="bottom_sheet_peek">asd</string>
+    <string name="bottom_sheet_content">test</string>
+    <string name="booking">Забронировать</string>
+    <string name="year21">Я старше 21 лет</string>
+    <string name="drive3">Мой стаж вождения более 3 лет</string>
+    <string name="telephone">Номер телефона</string>
+    <string name="password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="registration">Регистрация</string>
+    <string name="title_activity_nav">Каршеринг</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

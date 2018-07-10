@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.car.carsharing.mycarsharing.fragments.OrderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/orderMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/orderCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/orderNumberInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Госномер"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/orderNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/orderTimeInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Время поездки"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/orderTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/orderPriceInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="К Оплате"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/orderPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <Button
+                android:id="@+id/orderPay"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Оплатить"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
