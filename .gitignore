@@ -24,6 +24,7 @@ hs_err_pid*
 
 #android studio
 *.iml
+.idea
 .gradle
 /local.properties
 /.idea/workspace.xml
